@@ -1,0 +1,20 @@
+.virtual-list-outer-container{
+	overflow: auto !important;
+	width: 100%;
+}
+
+.virtual-list-inner-container{
+	position: relative;
+	width: 100%;
+}
+
+.virtual-list-row{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	text-align: center;
+	display: flex;
+    justify-content: space-around;
+}
