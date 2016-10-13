@@ -403,7 +403,7 @@ i.logo {
 }
 
 .product-info-container .product-price:before {
-    content: '₹';
+    content: '\20B9';
 }
 
 .load-more {
@@ -622,7 +622,6 @@ i.arrow-icon {
     }
 
     .product-price:before{
-        content: '₹' !important;
         font-size: 12px !important;
     }
 
